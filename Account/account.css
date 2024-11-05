@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    font-family: Poppins;
+}
+p{
+    font-family: Poppins;
+}
+label{
+    font-family: Poppins;
+}
+h2{
+    font-family: Poppins;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #c90000;
+}
+.subscription-info {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.subscription-info h2 {
+    margin-top: 0;
+}
+.readonly {
+    background-color: #f4f4f4;
+}
+.readonly input[type="text"],
+.readonly input[type="password"],
+.readonly select {
+    background-color: #f4f4f4;
+    cursor: not-allowed;
+}

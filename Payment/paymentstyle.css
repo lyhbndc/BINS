@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+:root {
+  --primary: #141414;
+  --light: #F3F3F3;
+  --dark: 	#686868;
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: var(--light);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.4;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  padding-top: 60px;
+  font-size: 35px;  
+  font-family: Poppins;
+  color: black;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  background-image: url('Assets/bg.png');
+  background-repeat: no-repeat;
+}
+
+/* HEADER */
+header {
+    padding: 20px 20px 0 20px;
+    position: fixed;
+    top: 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    margin-bottom: 0px; 
+
+}
+.netflixLogo img {  
+  height: 70px;    
+  padding-top: 10px; 
+}
+
+#logo {
+  color: #E50914;  
+  margin: 60px; 
+  padding: 0; 
+}
+
+
+.sub-nav {
+align-items: center;
+margin-right: 60px; 
+}
+
+.sub-nav a {
+  color: var(--primary);
+  text-decoration: none;
+  margin: 0 20px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 25px;
+}
+.divider {
+    height: 1px; 
+    background-color: gray; 
+    margin: 120px 0; 
+  }
+.container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+} 
+.container h1{
+    max-width: 500px;
+    text-align:center ;
+   
+}
+#myInput {
+    width: 470px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+}
+#my2Input {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+}
+#my3Input {
+    width: 158px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+}
+.button {
+    width: 479px;
+    height: 50px;
+    background-color: #db0001;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .container h3{
+    max-width: 500px;
+    color: black;
+    font-family: Poppins;
+    font-weight: 70;
+    margin-bottom: 50px;
+    text-align: center;
+   
+}
+  .radio-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-buttons input[type="radio"] {
+    display: none;
+}
+
+.radio-buttons label {
+    padding: 25px 10px;
+    width: 457px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    font-family: Poppins;
+    margin-bottom: 15px;
+}
+
+.radio-buttons input[type="radio"]:checked + label {
+    background-color: gray;
+    color: #fff;
+}
+.input-with-image {
+    position: relative;
+}
+
+.Gcash [type="text"] {
+    padding-left: 30px;
+    background-image: url('Payment/Assets/flag.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 20px;
+}
+#my4Input {
+    width: 445px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+}
+.input-container {
+    position: relative;
+    border: 2px solid #ccc; 
+    background-color: #D9D9D9;
+    border-radius: 5px; 
+    padding: 5px; 
+    width: 465px;
+}
+
+.input-container input[type="text"] {
+    width: 100%; 
+    padding-left: 30px; 
+    border: none; 
+    outline: none;
+}
+#my5Input {
+    width: 158px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+    background-color: #D9D9D9;
+}

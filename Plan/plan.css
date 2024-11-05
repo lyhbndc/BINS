@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.4;
+  overflow: hidden;
+}
+
+.plans-container {
+  display: flex;
+  margin-left: 200px;
+  align-items: center;
+}
+
+.plan {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  margin-left: 100px; /* Adjust the margin between plans */
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.plan:hover {
+  transform: scale(1.05);
+}
+
+.plan.selected {
+  border: 2px solid #e50914;
+}
+
+.plan h2 {
+  color: #333;
+}
+
+.plan p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.plan .price {
+  font-size: 24px;
+  color: #e50914;
+  margin-bottom: 20px;
+}
+
+.plan .btn {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.plan .btn:hover {
+  background-color: #ff1f43;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Adjust the margin as per your layout */
+  }
+  
+  .button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+.netflixLogo img {
+  height: 70px;
+  padding-top: 10px;
+}
+
+#logo {
+  color: #e50914;
+  margin: 60px;
+  padding: 0;
+}
+
+.sub-nav {
+  align-items: center;
+  margin-right: 60px;
+}
+
+.sub-nav a {
+  color: var(--primary);
+  text-decoration: none;
+  margin: 0 20px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.divider {
+  height: 1px;
+  background-color: gray;
+  margin: 120px 0;
+}
+
+header {
+  padding: 20px 20px 0 20px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.netflixLogo img {
+  height: 70px;
+  padding-top: 10px;
+}
+
+h1 {
+  padding-top: 0px;
+  font-size: 35px;
+  font-family: Poppins;
+  color: black;
+  margin-left: 300px;
+  margin-bottom: 40px;
+}
